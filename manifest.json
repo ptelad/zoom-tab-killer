@@ -1,7 +1,7 @@
 {
   "name": "ZOOM tab killer",
   "description": "Kills those pesky tabs ZOOM leaves behind when you join a meeting from a link.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "permissions": [
     "webNavigation",
