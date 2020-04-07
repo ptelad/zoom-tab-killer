@@ -3,5 +3,7 @@ chrome.webNavigation.onCompleted.addListener((details) => {
 }, {url: [{urlMatches : 'https://zoom.us/postattendee'}]});
 
 chrome.webNavigation.onCompleted.addListener((details) => {
-    chrome.tabs.remove(details.tabId, () => {});
+    setTimeout(() => {
+        chrome.tabs.remove(details.tabId, () => {});
+    }, 10000);
 }, {url: [{hostEquals : 'zoom.us', queryPrefix: 'status=success'}]});
