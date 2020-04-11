@@ -6,4 +6,4 @@ chrome.webNavigation.onCompleted.addListener((details) => {
     setTimeout(() => {
         chrome.tabs.remove(details.tabId, () => {});
     }, 10000);
-}, {url: [{hostEquals : 'zoom.us', queryPrefix: 'status=success'}]});
+}, {url: [{hostEquals : 'zoom.us', querySuffix: 'status=success'}]});
