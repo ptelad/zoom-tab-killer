@@ -5,4 +5,4 @@ Let ZOOM TAB KILLER take care of business!
 
 ZOOM TAB KILLER will close the ZOOM meeting tab 10 sec. after the "success=true" query param is added or  meeting is done and the page navigates to /postattendee
 
-[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/ecljipopiofdehgkinhohnldfaogdipo)
+[![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/ecljipopiofdehgkinhohnldfaogdipo)
